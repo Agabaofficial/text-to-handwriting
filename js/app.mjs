@@ -1,14 +1,16 @@
+<script type="module">
 import {
   addFontFromFile,
   formatText,
   addPaperFromFile
-} from './utils/helpers.mjs';
+} from 'https://raw.githubusercontent.com/Agabaofficial/text-to-handwriting/master/js/utils/helpers.mjs
+';
 import {
   generateImages,
   downloadAsPDF,
   deleteAll
 } from './generate-images.mjs';
-import { setInkColor, toggleDrawCanvas } from './utils/draw.mjs';
+import { setInkColor, toggleDrawCanvas } from 'https://raw.githubusercontent.com/Agabaofficial/text-to-handwriting/master/js/utils/draw.mjs';
 
 /**
  *
@@ -205,3 +207,4 @@ fetch(
       )
       .join('');
   });
+</script>
