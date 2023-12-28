@@ -1,10 +1,9 @@
-<script type="module">
 import {
   applyPaperStyles,
   removePaperStyles,
   renderOutput
-} from './js/utils/generate-utils.mjs';
-import { createPDF } from '.js/utils/helpers.mjs
+} from './utils/generate-utils.mjs';
+import { createPDF } from './utils/helpers.mjs
 ';
 
 const pageEl = document.querySelector('.page-a');
