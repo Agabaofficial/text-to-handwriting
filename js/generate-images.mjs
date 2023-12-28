@@ -3,8 +3,8 @@ import {
   applyPaperStyles,
   removePaperStyles,
   renderOutput
-} from 'https://raw.githubusercontent.com/Agabaofficial/text-to-handwriting/master/js/utils/generate-utils.mjs';
-import { createPDF } from 'https://raw.githubusercontent.com/Agabaofficial/text-to-handwriting/master/js/utils/helpers.mjs
+} from './js/utils/generate-utils.mjs';
+import { createPDF } from '.js/utils/helpers.mjs
 ';
 
 const pageEl = document.querySelector('.page-a');
@@ -190,4 +190,4 @@ function contrastImage(imageData, contrast) {
   }
   return imageData;
 }
-</script>
+
